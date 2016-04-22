@@ -22,7 +22,7 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; ;
+    font-size: 14px;
 }
 
 .lead {
@@ -35,7 +35,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/banner.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -121,7 +121,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/banner.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -174,4 +174,34 @@ footer {
 p.copyright {
     margin: 15px 0 0;
     color:black;
+}
+
+div.sched-container {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+div.item.col-md-2 {
+    border:white 2px outset;
+    background: linear-gradient(135deg, #EF571F, #F99160, #fff);
+    display:inline-flex;
+    align-self:center;
+    align-items:center;
+    justify-content:center;
+    padding:2%;
+    margin-right:1%;
+    margin-left:1%;
+}
+
+div.item.col-md-2.end {
+    margin-right:0%;
+    margin-left:2%;
+}
+
+div.item.col-md-2.start {
+    margin-right:2%;
+    margin-left:0%;
 }
