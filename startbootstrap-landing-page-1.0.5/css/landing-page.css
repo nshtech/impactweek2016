@@ -198,6 +198,10 @@ button.btn.item{
     color:white;
 }
 
+.mobile {
+        display:none;
+    }
+
 @media (max-width:767px) {
     .sched-container {
         display:flex;
@@ -214,6 +218,13 @@ button.btn.item{
     .btn.item.end.start, .btn.item.end {
         margin-left:0;
         margin-right:0;
+    }
+
+    .mobile {
+        display:block;
+    }
+    .nomobile {
+        display:none;
     }
 
 }
