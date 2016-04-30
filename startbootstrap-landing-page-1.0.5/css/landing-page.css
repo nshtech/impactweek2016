@@ -185,7 +185,8 @@ div.sched-container {
 }
 
 button.btn.item{
-    border:white 2px outset;
+    border:#efefef 3px outset;
+    /* box-shadow:0px 0px 1px 1px #efefef; */
     background: rgba(191, 104, 63, .60);
     display:inline-flex;
     align-self:center;
