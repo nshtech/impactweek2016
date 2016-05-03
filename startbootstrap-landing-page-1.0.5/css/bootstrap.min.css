@@ -2009,24 +2009,26 @@ pre code {
 	padding-right: 15px;
 	padding-left: 15px;
 	margin-right: auto;
+	display:inline-block;
 	margin-left: auto;
+	width:100%;
 }
 
 @media (min-width:770px) {
 	.container {
-		width: 90%;;
+		width: 100%;;
 	}
 }
 
 @media (min-width:992px) {
 	.container {
-		width: 90%;;
+		width: 100%;;
 	}
 }
 
 @media (min-width:1200px) {
 	.container {
-		width: 90%;;
+		width: 100%;;
 	}
 }
 
@@ -2040,6 +2042,7 @@ pre code {
 .row {
 	/* margin-right: -15px;
 	margin-left: -15px; */
+	clear:both;
 }
 
 .col-lg-1,
@@ -5039,15 +5042,19 @@ textarea.input-group-sm>.input-group-btn>.btn {
 	margin-left:0;
 	margin-right:0;
 	display: flex;
-	align-items:center;"
+	display: -webkit-flex;
+	-webkit-align-items: center;
+	align-items: center;"
 }
 
 .nav-container .right {
 	flex:1 0;
+	-webkit-flex: 1 0;
+
 
 }
 
-@media (max-width:845px) {
+@media (max-width:860px) {
 	.nav-container .right {
 		font-size:.8em;
 	}

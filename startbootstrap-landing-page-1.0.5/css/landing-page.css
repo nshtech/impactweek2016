@@ -141,14 +141,14 @@ h6 {
     margin-top: 0;
 }
 
-@media(max-width:1199px) {
+@media (max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
         margin-top: 15px;
     }
 }
 
-@media(max-width:767px) {
+@media (max-width:767px) {
     .banner h2 {
         margin: 0;
         text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
@@ -178,9 +178,13 @@ p.copyright {
 
 div.sched-container {
     width:100%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    margin:0;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
     text-align:center;
 }
 
@@ -188,38 +192,61 @@ button.btn.item{
     border:#efefef 3px outset;
     /* box-shadow:0px 0px 1px 1px #efefef; */
     background: rgba(158, 62, 46, 1.00);
-    font-size:1em;
-    display:inline-flex;
+    font-size:100%;
+    display: inline-flex;
+    display: -webkit-inline-flex;
     align-self:center;
-    align-items:center;
-    justify-content:center;
-    padding:1.5%;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding-top:1%;
+    padding-bottom:1%;
+    overflow:hidden;
     margin-right:.5%;
     margin-left:.5%;
     width:16.66666667;
     color:white;
+    text-align:center;
+}
+
+button.btn.item div {
+    background:transparent;
+    text-align:center;
+    width:100%;
+    padding:0;
 }
 
 .mobile {
         display:none;
     }
 
-@media (max-width:767px) {
+@media (max-width:790px) {
     .sched-container {
-        display:flex;
+        -webkit-align-self: center;
+        align-self:center;
+        display: flex;
+        display: -webkit-flex;
         flex-direction:column;
-        justify-content:center;
-        align-items:center;
+        -webkit-flex-direction:column;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        align-items: center;
     }
 
     .btn.item {
         width:60%;
+        width:20em;
         margin-bottom:.5em;
+        display: -webkit-flex;
+        -webkit-justify-content: center;
+        -webkit-align-items: center;
+        text-align:center;
     }
 
-    .btn.item.end.start, .btn.item.end {
+    .btn.item.start, .btn.item.end {
         margin-left:0;
-        margin-right:0;
     }
 
     .mobile {
@@ -228,6 +255,18 @@ button.btn.item{
     .nomobile {
         display:none;
     }
+    div.contactmobile {
+        width:100%;
+        display:flex;
+        display:-webkit-flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-align-self: center;
+        align-self: center;
+        justify-content:center;
+        -webkit-justify-content: center;
+    }
+
 
 }
 
@@ -246,7 +285,7 @@ button.btn.item{
 }
 
 .event {
-    font-size:1.5em;
+    font-size:1.2em;
     list-style:none;
     font-family:'PT Sans';
 }
