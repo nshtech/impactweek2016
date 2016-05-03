@@ -5054,7 +5054,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 }
 
-@media (max-width:860px) {
+@media (max-width:870px) {
 	.nav-container .right {
 		font-size:.8em;
 	}
@@ -5272,7 +5272,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 ;
 }
 
-@media (min-width:770px) {
+@media (min-width:767px) {
 	.navbar-header {
 		float: left;
 	}
@@ -5472,7 +5472,7 @@ ul.navbar-nav.navbar-right {
 	line-height: 20px;
 }
 
-@media (max-width:770px) {
+@media (max-width:780px) {
 	.navbar-nav .open .dropdown-menu {
 		position: static;
 		float: none;

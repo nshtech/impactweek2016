@@ -218,10 +218,10 @@ button.btn.item div {
 }
 
 .mobile {
-        display:none;
-    }
+    display:none;
+}
 
-@media (max-width:790px) {
+@media (max-width:767px) {
     .sched-container {
         -webkit-align-self: center;
         align-self:center;
