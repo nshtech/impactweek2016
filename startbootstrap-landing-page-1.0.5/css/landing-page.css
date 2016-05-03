@@ -188,7 +188,7 @@ button.btn.item{
     border:#efefef 3px outset;
     /* box-shadow:0px 0px 1px 1px #efefef; */
     background: rgba(158, 62, 46, 1.00);
-    font-size:1.25em;
+    font-size:1em;
     display:inline-flex;
     align-self:center;
     align-items:center;
