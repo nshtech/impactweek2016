@@ -217,9 +217,10 @@ button.btn.item div {
     padding:0;
 }
 
-.mobile {
+.mobile, span.mobile{
     display:none;
 }
+
 
 @media (max-width:767px) {
     .sched-container {
@@ -249,7 +250,7 @@ button.btn.item div {
         margin-left:0;
     }
 
-    .mobile {
+    .mobile{
         display:block;
     }
     .nomobile {
