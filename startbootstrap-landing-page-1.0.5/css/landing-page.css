@@ -22,7 +22,7 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; ;
+    font-size: 14px;
 }
 
 .lead {
@@ -35,7 +35,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/banner.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -121,7 +121,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/banner.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -174,4 +174,66 @@ footer {
 p.copyright {
     margin: 15px 0 0;
     color:black;
+}
+
+div.sched-container {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+button.btn.item{
+    border:white 2px outset;
+    background: rgba(191, 104, 63, .60);
+    display:inline-flex;
+    align-self:center;
+    align-items:center;
+    justify-content:center;
+    padding:1%;
+    margin-right:.5%;
+    margin-left:.5%;
+    width:16.66666667;
+    color:white;
+}
+
+@media (max-width:767px) {
+    .sched-container {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .btn.item {
+        width:60%;
+        margin-bottom:.5em;
+    }
+
+    .btn.item.end.start, .btn.item.end {
+        margin-left:0;
+        margin-right:0;
+    }
+
+}
+
+.item div {
+    background:transparent;
+}
+
+.btn.item.end {
+    margin-right:0%;
+    margin-left:.5%;
+}
+
+.btn.item.start {
+    margin-right:.5%;
+    margin-left:0%;
+}
+
+.event {
+    font-size:1.5em;
+    list-style:none;
+    font-family:'PT Sans';
 }
