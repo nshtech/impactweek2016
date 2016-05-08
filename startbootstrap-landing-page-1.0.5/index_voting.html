@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -83,7 +84,7 @@
                         <h1>NSH Impact Week</h1>
                         <h3>May 8 - May 13, 2016</h3>
                         <hr class="intro-divider">
-                        <h3>Voting Opens Sunday, May 8!</h3>
+                        <h3>Voting Opens Monday, May 9!</h3>
                         <!--
                         <ul class="list-inline intro-social-buttons">
                             <li>
@@ -109,15 +110,31 @@
                                 <i class="fa fa-check"></i> Vote</a>
                         </ul> -->
                         <!--
-                        <div class="col-md-3">
+                            <div class="input-group margin-bottom-sm" style="margin: 0 auto; width:500px;">
+                                <span class="input-group-addon fixed-width"><i class="fa fa-envelope-o fa-fw"></i></span>
+                                <input id="Email" name="Email" type="text" class="form-control"  placeholder="Email">
                             </div>
-                            <div class="col-md-6">
+                            <div data-toggle="buttons"> 
+                                <label class="btn btn-default active">
+                            <input id="Vote1" name="Vote" type="radio" value="ASB"> ASB </label> <br>
+                            <label class="btn btn-default">
+                            <input id="Vote2" name="Vote" type="radio" value="P4P"> P4P </label> <br>
+                            <label class="btn btn-default">
+                            <input id="Vote3" name="Vote" type="radio" value="RelayForLife"> Relay For Life </label><br>
+                            <label class="btn btn-default">
+                            <input id="Vote4" name="Vote" type="radio" value="MARSSHAPE"> MARS SHAPE </label> </div> <br>
+                            <button id="ButtonSubmit" class="btn btn-default btn-lg"  type="submit" onclick="postContactToGoogle()" >Vote</button> -->
+                            <div class="col-md-3 sm-3">
+                            </div>
+                            <div class="col-md-6 sm-6">
+                                
+                                <!--
                                 <div class="panel panel-primary">
                                     <div class="panel-heading">
                                         <h3 class="panel-title">
                                             Vote Now!</h3>
                                     </div>
-                               
+                                
                                     
                                     <div class="panel-body two-col">
                                         <div class="input-group margin-bottom-sm" style="margin: 0 auto; ">
@@ -149,7 +166,7 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <div class="well well-sm margin-bottom-none">
+                                                <div class="well well-sm md-margin-bottom-none">
                                                     <div class="checkbox">
                                                         <label >
                                                             
@@ -159,7 +176,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <div class="well well-sm margin-bottom-none">
+                                                <div class="well well-sm md-margin-bottom-none">
                                                     <div class="checkbox">
                                                         <label >
                                                             
@@ -173,8 +190,304 @@
                                     <div class="panel-footer">
                                         <button id="ButtonSubmit" class="btn btn-success btn-md"  type="submit" onclick="postContactToGoogle()" ><i class="fa fa-check"></i> Vote</button> 
                                     </div>
+
                                 </div>
-                            </div> -->
+                            -->
+                               
+
+                            </div>
+                            <center>
+ <script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.13058" type="text/javascript"></script>
+<script type="text/javascript"> JotForm.init(function(){ setTimeout(function() { $('input_3').hint('ex: myname@example.com'); }, 20); JotForm.clearFieldOnHide="disable"; JotForm.onSubmissionError="jumpToFirstError"; });
+</script>
+<link href="https://cdn.jotfor.ms/static/formCss.css?3.3.13058" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.13058" />
+<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.13058" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/54e971a6977cdfa2298b4567.css?themeRevisionID=55b9ed4e977cdf0e6f8b4568"/>
+<style type="text/css"> .form-label-left{ width:150px !important; } .form-line{ padding-top:12px; padding-bottom:12px; } .form-label-right{ width:150px !important; } .form-all{ width:500px; color:rgb(255, 255, 255) !important; font-family:'Arial'; font-size:14px; }
+</style> <style type="text/css" id="form-designer-style"> /* Injected CSS Code */
+@import "https://fonts.googleapis.com/css?family=Terminal Dosis Light:light,lightitalic,normal,italic,bold,bolditalic";
+.form-all { font-family: "Arial", sans-serif;
+}
+.form-all { width: 500px; width: 100%; max-width: 500px;
+}
+.form-label-left,
+.form-label-right { width: 150px;
+}
+.form-label { white-space: normal;
+}
+.form-label.form-label-auto { display: inline-block; float: left; text-align: left; width: 150px;
+}
+.form-label-left { display: inline-block; white-space: normal; float: left; text-align: left;
+}
+.form-label-right { display: inline-block; white-space: normal; float: left; text-align: right;
+}
+.form-label-top { white-space: normal; display: block; float: none; text-align: left;
+}
+.form-all { font-size: 14px;
+}
+.form-label { font-weight: normal; font-size: 0.95em;
+}
+.supernova { background-color: rgba(206, 82, 45, 0.66); background-color: #ffffff;
+}
+.supernova body { background-color: transparent;
+}
+/*
+@width30: (unit(@formWidth, px) + 60px);
+@width60: (unit(@formWidth, px)+ 120px);
+@width90: (unit(@formWidth, px)+ 180px);
+*/
+/* | */
+@media screen and (min-width: 480px) { .supernova .form-all { border: 1px solid #e6e6e6; -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1); box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1); }
+}
+/* | */
+/* | */
+@media screen and (max-width: 480px) { .jotform-form { padding: 10px 0; }
+}
+/* | */
+/* | */
+@media screen and (min-width: 480px) and (max-width: 768px) { .jotform-form { padding: 30px 0; }
+}
+/* | */
+/* | */
+@media screen and (min-width: 480px) and (max-width: 499px) { .jotform-form { padding: 30px 0; }
+}
+/* | */
+/* | */
+@media screen and (min-width: 768px) { .jotform-form { padding: 60px 0; }
+}
+/* | */
+/* | */
+@media screen and (max-width: 499px) { .jotform-form { padding: 0; }
+}
+/* | */
+.supernova .form-all,
+.form-all { background-color: rgba(206, 82, 45, 0.66); border: 1px solid transparent;
+}
+.form-header-group { border-color: rgba(164, 65, 36, 0.66);
+}
+.form-matrix-table tr { border-color: rgba(164, 65, 36, 0.66);
+}
+.form-matrix-table tr:nth-child(2n) { background-color: rgba(185, 74, 40, 0.66);
+}
+.form-all { color: #ffffff;
+}
+.form-header-group .form-header { color: #ffffff;
+}
+.form-header-group .form-subHeader { color: #ffffff;
+}
+.form-sub-label { color: #ffffff;
+}
+.form-label-top,
+.form-label-left,
+.form-label-right,
+.form-html { color: #ffffff;
+}
+.form-checkbox-item label,
+.form-radio-item label { color: #ffffff;
+}
+.form-line.form-line-active { -webkit-transition-property: all; -moz-transition-property: all; -ms-transition-property: all; -o-transition-property: all; transition-property: all; -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; -ms-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; -webkit-transition-timing-function: ease; -moz-transition-timing-function: ease; -ms-transition-timing-function: ease; -o-transition-timing-function: ease; transition-timing-function: ease; background-color: rgba(253, 248, 215, 0.04);
+}
+/* ömer */
+.form-radio-item,
+.form-checkbox-item { padding-bottom: 4px !important;
+}
+.form-radio-item:last-child,
+.form-checkbox-item:last-child { padding-bottom: 0;
+}
+/* ömer */
+.form-single-column .form-checkbox-item,
+.form-single-column .form-radio-item { width: 100%;
+}
+.form-radio-item:not(#foo) { margin-bottom: 0; position: relative;
+}
+.form-radio-item:not(#foo) input[type="checkbox"],
+.form-radio-item:not(#foo) input[type="radio"] { display: none;
+}
+.form-radio-item:not(#foo) .form-radio-other,
+.form-radio-item:not(#foo) .form-checkbox-other { display: inline-block !important; margin-left: 7px; margin-right: 3px; margin-top: 4px;
+}
+.form-radio-item:not(#foo) .form-checkbox-other-input,
+.form-radio-item:not(#foo) .form-radio-other-input { margin: 0;
+}
+.form-radio-item:not(#foo) label { line-height: 18px; margin-left: 0; float: left; text-indent: 27px;
+}
+.form-radio-item:not(#foo) label:before { content: ''; position: absolute; display: inline-block; vertical-align: baseline; margin-right: 4px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; left: 4px; width: 18px; height: 18px; cursor: pointer;
+}
+.form-radio-item:not(#foo) label:after { content: ''; position: absolute; z-index: 10; display: inline-block; opacity: 0; top: 5px; left: 9px; width: 8px; height: 8px;
+}
+.form-radio-item:not(#foo) input:checked + label:after { opacity: 1;
+}
+.form-radio-item:not(#foo) label:before { border: 2px solid #ffffff;
+}
+.form-radio-item:not(#foo) label:after { background-color: #ffffff; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; cursor: pointer;
+}
+.form-checkbox-item:not(#foo) { margin-bottom: 0; position: relative;
+}
+.form-checkbox-item:not(#foo) input[type="checkbox"],
+.form-checkbox-item:not(#foo) input[type="radio"] { display: none;
+}
+.form-checkbox-item:not(#foo) .form-radio-other,
+.form-checkbox-item:not(#foo) .form-checkbox-other { display: inline-block !important; margin-left: 7px; margin-right: 3px; margin-top: 4px;
+}
+.form-checkbox-item:not(#foo) .form-checkbox-other-input,
+.form-checkbox-item:not(#foo) .form-radio-other-input { margin: 0;
+}
+.form-checkbox-item:not(#foo) label { line-height: 18px; margin-left: 0; float: left; text-indent: 27px;
+}
+.form-checkbox-item:not(#foo) label:before { content: ''; position: absolute; display: inline-block; vertical-align: baseline; margin-right: 4px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; left: 4px; width: 18px; height: 18px; cursor: pointer;
+}
+.form-checkbox-item:not(#foo) label:after { content: ''; position: absolute; z-index: 10; display: inline-block; opacity: 0; top: 8px; left: 9px; width: 3px; height: 3px;
+}
+.form-checkbox-item:not(#foo) input:checked + label:after { opacity: 1;
+}
+.form-checkbox-item:not(#foo) label:before { border: 2px solid #ffffff;
+}
+.form-checkbox-item:not(#foo) label:after { background-color: #ffffff; box-shadow: 0 2px 0 0 #ffffff, 2px 2px 0 0 #ffffff, 4px 2px 0 0 #ffffff, 6px 2px 0 0 #ffffff; -moz-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -o-transform: rotate(-45deg); -ms-transform: rotate(-45deg); transform: rotate(-45deg);
+}
+.supernova { height: 100%; background-repeat: no-repeat; background-attachment: scroll; background-position: center top; background-attachment: fixed; background-size: auto; background-size: cover;
+}
+.supernova { background-image: none; background-image: url("//www.jotform.com/uploads/EltonCris/form_files/taxi.jpg");
+}
+#stage { background-image: none; background-image: url("//www.jotform.com/uploads/EltonCris/form_files/taxi.jpg");
+}
+/* | */
+.form-all { background-repeat: no-repeat; background-attachment: scroll; background-position: center top; background-repeat: repeat;
+}
+.form-header-group { background-repeat: no-repeat; background-attachment: scroll; background-position: center top;
+}
+.form-line { margin-top: 0px; margin-bottom: 0px;
+}
+.form-line { padding: 8px 36px;
+}
+.form-all .form-textbox,
+.form-all .form-radio-other-input,
+.form-all .form-checkbox-other-input,
+.form-all .form-captcha input,
+.form-all .form-spinner input,
+.form-all .form-pagebreak-back,
+.form-all .form-pagebreak-next,
+.form-all .qq-upload-button,
+.form-all .form-error-message { -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px;
+}
+.form-all .form-textarea { -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px;
+}
+.form-all .form-submit-button,
+.form-all .form-submit-reset,
+.form-all .form-submit-print { -webkit-border-radius: 100px; -moz-border-radius: 100px; border-radius: 100px;
+}
+.form-all .form-sub-label { margin-left: 3px;
+}
+.form-dropdown { -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; -webkit-appearance: none; -moz-appearance: button; appearance: none; margin: 0;
+}
+.form-all { -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;
+}
+.form-section:first-child { -webkit-border-radius: 6px 6px 0 0; -moz-border-radius: 6px 6px 0 0; border-radius: 6px 6px 0 0;
+}
+.form-section:last-child { -webkit-border-radius: 0 0 6px 6px; -moz-border-radius: 0 0 6px 6px; border-radius: 0 0 6px 6px;
+}
+.form-all .qq-upload-button,
+.form-all .form-submit-button,
+.form-all .form-submit-reset,
+.form-all .form-submit-print { font-size: 1.15em; padding: 12px 18px; font-family: "Arial", sans-serif; font-size: 20px; font-weight: normal;
+}
+.form-all .form-submit-print { margin-left: 0 !important; margin-right: 0 !important;
+}
+.form-all .qq-upload-button,
+.form-all .form-submit-button,
+.form-all .form-submit-reset,
+.form-all .form-submit-print { color: #222222 !important; background: #ffffff; box-shadow: none; text-shadow: none;
+}
+.form-all .form-pagebreak-back,
+.form-all .form-pagebreak-next { font-size: 1em; padding: 9px 15px; font-family: "Arial", sans-serif; font-size: 14px; font-weight: normal;
+}
+/*
+& when ( @buttonFontType = google ) { @import (css) "@{buttonFontLink}";
+}
+*/
+h2.form-header { line-height: 1.618em;
+}
+h2 ~ .form-subHeader { line-height: 1.5em;
+}
+.form-header-group { text-align: center;
+}
+/*.form-dropdown,
+.form-radio-item,
+.form-checkbox-item,
+.form-radio-other-input,
+.form-checkbox-other-input,*/
+.form-captcha input,
+.form-spinner input,
+.form-error-message { padding: 4px 3px 2px 3px;
+}
+.form-header-group { font-family: "Terminal Dosis Light", sans-serif;
+}
+.form-section { padding: 0px 0px 0px 0px;
+}
+.form-header-group { margin: 0px 0px 0px 0px;
+}
+.form-header-group { padding: 24px 36px 24px 36px;
+}
+.form-header-group { background-color: rgba(206, 82, 45, 0.77);
+}
+.form-textbox,
+.form-textarea { border-width: 0px; border-color: #ffffff; color: #131313; padding: 6px 6px 4px 6px;
+}
+.form-textbox,
+.form-textarea,
+.form-radio-other-input,
+.form-checkbox-other-input,
+.form-captcha input,
+.form-spinner input { background-color: #ffffff;
+}
+.form-textarea { height: 100px;
+}
+.form-dropdown { border-width: 0px; border-color: #ffffff; color: #131313; -webkit-appearance: menulist-button; background-color: #ffffff;
+}
+[data-type="control_dropdown"] .form-input,
+[data-type="control_dropdown"] .form-input-wide { width: 150px;
+}
+.form-buttons-wrapper { margin-left: 0 !important; text-align: center !important;
+}
+.form-header-group { border-bottom: none;
+}
+.form-label { margin-right: 0px; margin-bottom: 0;
+}
+.form-label { font-family: "Arial", sans-serif;
+}
+li[data-type="control_image"] div { text-align: left;
+}
+li[data-type="control_image"] img { border: none; border-width: 0px !important; border-style: solid !important; border-color: false !important;
+}
+.form-line-column { width: auto;
+}
+.form-line-error { background-color: rgba(206, 82, 45, 0.66); -webkit-box-shadow: inset 0px 3px 11px -7px #ea0909; -moz-box-shadow: inset 0px 3px 11px -7px #ea0909; box-shadow: inset 0px 3px 11px -7px #ea0909;
+}
+.form-line-error input:not(#coupon-input),
+.form-line-error textarea,
+.form-line-error .form-validation-error { -webkit-transition-property: none; -moz-transition-property: none; -ms-transition-property: none; -o-transition-property: none; transition-property: none; -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; -ms-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; -webkit-transition-timing-function: ease; -moz-transition-timing-function: ease; -ms-transition-timing-function: ease; -o-transition-timing-function: ease; transition-timing-function: ease; border: 1px solid rgba(255, 244, 244, 0); -moz-box-shadow: 0 0 3px rgba(255, 244, 244, 0); -webkit-box-shadow: 0 0 3px rgba(255, 244, 244, 0); box-shadow: 0 0 3px rgba(255, 244, 244, 0);
+}
+.form-line-error .form-error-message { margin: 0; position: absolute; color: #fff; display: inline-block; right: 0; font-size: 10px; position: absolute!important; box-shadow: none; top: 0px; line-height: 20px; color: #FFF; background: #ea0909; padding: 0px 5px; bottom: auto; min-width: 105px; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;
+}
+.form-line-error .form-error-message img,
+.form-line-error .form-error-message .form-error-arrow { display: none;
+}
+.ie-8 .form-all { margin-top: auto; margin-top: initial;
+}
+.ie-8 .form-all:before { display: none;
+}
+/* | */
+@media screen and (max-width: 480px), screen and (max-device-width: 768px) and (orientation: portrait), screen and (max-device-width: 415px) and (orientation: landscape) { .jotform-form { padding: 0; } .form-all { border: 0; width: 100% !important; max-width: initial; } .form-sub-label-container { width: 100%; margin: 0; } .form-input { width: 100%; } .form-label { width: 100%!important; } .form-line { padding: 2% 5%; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; } input[type=text], input[type=email], input[type=tel], textarea { width: 100%; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; max-width: initial !important; } .form-input, .form-input-wide, .form-textarea, .form-textbox, .form-dropdown { max-width: initial !important; } div.form-header-group { padding: 24px 36px !important; padding-left: 5% !important; padding-right: 5% !important; margin: 0 0px 2% !important; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; } [data-type="control_button"] { margin-bottom: 0 !important; } .form-buttons-wrapper { margin: 0!important; } .form-buttons-wrapper button { width: 100%; } table { width: 100%!important; max-width: initial !important; } table td + td { padding-left: 3%; } .form-checkbox-item input, .form-radio-item input { width: auto; } .form-collapse-table { margin: 0 5%; }
+}
+/* | */ /*__INSPECT_SEPERATOR__*/ /* Injected CSS Code */
+</style> <form class="jotform-form" action="https://submit.jotform.us/submit/61282596534159/" method="post" name="form_61282596534159" id="61282596534159" accept-charset="utf-8"> <input type="hidden" name="formID" value="61282596534159" /> <div class="form-all"> <ul class="form-section page-section"> <li id="cid_1" class="form-input-wide" data-type="control_head"> <div class="form-header-group"> <div class="header-text httal htvam"> <h2 id="header_1" class="form-header"> Vote Now! </h2> </div> </div> </li> <li class="form-line" data-type="control_email" id="id_3"> <label class="form-label form-label-left form-label-auto" id="label_3" for="input_3"> E-mail </label> <div id="cid_3" class="form-input jf-required"> <input type="email" class=" form-textbox validate[Email]" id="input_3" name="q3_email" size="30" value="" /> </div> </li> <li class="form-line" data-type="control_radio" id="id_4"> <label class="form-label form-label-left form-label-auto" id="label_4" for="input_4"> Team </label> <div id="cid_4" class="form-input jf-required"> <div class="form-single-column"> <span class="form-radio-item" style="clear:left;"> <span class="dragger-item"> </span> <input type="radio" class="form-radio" id="input_4_0" name="q4_team" value="ASB" /> <label id="label_input_4_0" for="input_4_0"> ASB </label> </span> <span class="form-radio-item" style="clear:left;"> <span class="dragger-item"> </span> <input type="radio" class="form-radio" id="input_4_1" name="q4_team" value="P4P" /> <label id="label_input_4_1" for="input_4_1"> P4P </label> </span> <span class="form-radio-item" style="clear:left;"> <span class="dragger-item"> </span> <input type="radio" class="form-radio" id="input_4_2" name="q4_team" value="Relay For Life" /> <label id="label_input_4_2" for="input_4_2"> Relay For Life </label> </span> <span class="form-radio-item" style="clear:left;"> <span class="dragger-item"> </span> <input type="radio" class="form-radio" id="input_4_3" name="q4_team" value="MARS/SHAPE" /> <label id="label_input_4_3" for="input_4_3"> MARS/SHAPE </label> </span> </div> </div> </li> <li class="form-line" data-type="control_button" id="id_2"> <div id="cid_2" class="form-input-wide"> <div style="margin-left:156px" class="form-buttons-wrapper"> <button id="input_2" type="submit" class="btn btn-success btn-md"> <i class="fa fa-check"></i> Vote </button> </div> </div> </li> <li style="display:none"> Should be Empty: <input type="text" name="website" value="" /> </li> </ul> </div> <input type="hidden" id="simple_spc" name="simple_spc" value="61282596534159" /> <script type="text/javascript"> document.getElementById("si" + "mple" + "_spc").value = "61282596534159-61282596534159"; </script>
+</form>
+<script type="text/javascript">JotForm.ownerView=true;</script>
+                                
+                            </center>
+
+                        </div>
 
                     </div>
                 </div>
@@ -215,13 +528,13 @@
                         Thurs. 5/12<br></strong>Slip 'n Slide
                         </div></button>
                         <button type="button" class="btn item col-md-2 end" data-toggle="collapse" data-target="#5-13"><div><strong>
-                        Fri. 5/13</strong><br>Finale
+                        Fri. 5/13</strong><br>Bat 17
                         </div></button></div>
                     </div>
                     <br>
                     
                     <div class="row clearfix">
-                        <div id="5-8" class="collapse"><ul class="event"><li><h2>Sunday, May 8</h2></li><li>KICKOFF EVENT 7-8PM</li><ul></div>
+                        <div id="5-8" class="collapse"><ul class="event"><li><h2>Sunday, May 8</h2></li><li>KICKOFF</li><ul></div>
                     </div>
                     <div class="row clearfix">
                         <div id="5-9" class="collapse"><ul class="event"><li><h2>Monday, May 9</h2></li><li>Shots for a Purpose Shooting Challenge: 11am-4pm (Bobb Courts)</li><ul></div>
@@ -236,7 +549,7 @@
                         <div id="5-12" class="collapse"><ul class="event"><li><h2>Thursday, May 12</h2></li><li>Slip 'n Slide with MARS/SHAPE: 1pm-4pm (Deering Meadow)</li><ul></div>
                     </div>
                     <div class="row clearfix">
-                        <div id="5-13" class="collapse"><ul class="event"><li><h2>Friday, May 13</h2></li><li>FINALE EVENT: 8-10pm</li><ul></div>
+                        <div id="5-13" class="collapse"><ul class="event"><li><h2>Friday, May 13</h2></li><li>FINALE EVENT: 8-10pm (Bat 17)</li><ul></div>
                     </div>
                 </div>
             </div>
@@ -471,6 +784,9 @@
         </div>
     </footer>
 
+    <!-- jQuery -->
+    
+
 <script type = "text/javascript"
 src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>
@@ -485,7 +801,10 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script
                 data: { "entry.55456154": email,
                 "entry.87123640": vote},
                 //data: {"entry.55456154": "bye"},
-                xhrFields: {
+                type: "POST",
+                 contentType: 'text/plain',
+
+  xhrFields: {
     // The 'xhrFields' property sets additional fields on the XMLHttpRequest.
     // This can be used to set the 'withCredentials' property.
     // Set the value to 'true' if you'd like to pass cookies to the server.
@@ -493,22 +812,17 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script
     // 'Access-Control-Allow-Credentials: true'.
     withCredentials: false
   },
-                type: "POST",
-                dataType: "xml",
                 statusCode: {
                     0: function () {
-                        window.location.replace("index.html");
+                        window.location.replace("index_voting.html");
                     },
                     200: function () {
-                        window.location.replace("index.html");
+                        window.location.replace("index_voting.html");
                     }
                 }
             });
     }
 </script>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
